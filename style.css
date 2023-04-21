@@ -13,7 +13,7 @@ body {
 .matrix img {
   width: 100%;
 }
-.matrix .more-info {
+.matrix .info {
   font-family: fantasy, cursive;
 }
 
@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.main-page-element {
+.main-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-wrapper {
+.wrapper {
   display: flex;
 }
 ul {
@@ -119,17 +119,17 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.delete img {
+button.del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.del img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed label {
   text-decoration: line-through
   color: #888;
 }
